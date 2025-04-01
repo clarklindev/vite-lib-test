@@ -1,7 +1,12 @@
-import "./App.css";
+import { Button } from '@fightclub/libtest';
+import './App.css';
 
 function App() {
-    return <></>;
+    return (
+        <>
+            <Button className="text-blue-500">test</Button>
+        </>
+    );
 }
 
 export default App;
